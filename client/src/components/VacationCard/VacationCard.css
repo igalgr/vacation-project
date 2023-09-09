@@ -1,0 +1,142 @@
+.vacationCard {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  width: 350px; 
+  height: 450px; 
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.vacationCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.vacation_title {
+  font-weight: bold;
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.vacation_date {
+  font-size: 16px;
+  color: #777;
+}
+
+.vacation_description {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #555;
+  height: 75px;
+  overflow-y: auto; 
+  
+}
+
+.vacation_description::-webkit-scrollbar {
+  width: 12px;
+}
+
+.vacation_description::-webkit-scrollbar-thumb {
+  background-color: #109be1;
+  border-radius: 10px;
+}
+
+.vacation_description {
+  scrollbar-width: thin;
+  scrollbar-color: #109be1 transparent;
+}
+
+.vacation_image {
+  width: 100%;
+  height: 175px; /* Increase the height of the image */
+  margin-top: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.vacation_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.vacation_image img:hover {
+  transform: scale(1.1);
+}
+
+.vacation_price {
+  display: flex;
+  justify-content: end;
+  padding: 8px 12px;
+  background-color: #f83f3f;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #333;
+  font-size: 1.4rem;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.vacation_price:hover {
+  background-color: #f5a5e3;
+  transform: scale(1.05);
+}
+
+.vacation_price:active {
+  transform: scale(0.95);
+}
+
+.vacation_actions {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+}
+
+.vacation_actions button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.vacation_edit {
+  background-color: #1206f0;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.vacation_delete {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #ff0000;
+}
+
+.vacation_edit:hover {
+  background-color: #72b3f8; /* Change the background color on hover */
+}
+
+.vacation_delete:hover {
+  background-color: #f85b60; /* Change the background color on hover */
+}
+
+.btnAction {
+  display: flex;
+  justify-content: end;
+}

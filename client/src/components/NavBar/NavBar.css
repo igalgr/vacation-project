@@ -1,0 +1,55 @@
+.navbar h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #db7c34; 
+  padding-bottom: 8px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom-color 0.3s, text-shadow 0.3s;
+  cursor: pointer;
+  margin: 0; 
+  display: inline-block; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+}
+
+.navbar h4:hover {
+  color: #1abc9c; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  border-bottom-color: #1abc9c; 
+  transform: translateY(-2px); 
+}
+
+.navbar {
+  background: linear-gradient(to right, #f9dcc4, #f7dc6f); 
+}
+
+.navbar {
+  text-align: center;
+}
+
+.logout {
+  padding: 10px 20px;
+  font-size: 18px; 
+  font-weight: bold; 
+  background-color: #f7dc6f;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #fff; 
+  padding-bottom: 8px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom-color 0.3s, text-shadow 0.3s;
+  cursor: pointer;
+  margin: 0;
+  display: inline-block; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+
+}
+
+.logout:hover{
+  color: #1abc9c; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+  border-bottom-color: #1abc9c; 
+  transform: translateY(-2px); 
+}
